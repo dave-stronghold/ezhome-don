@@ -1,0 +1,30 @@
+@import '../../styles/abstract/custom-variables';
+@import '../../styles/abstract/custom-mixins';
+
+
+.colorBox{
+    width: 120px;
+    height:120px;
+}
+.gridItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8px;
+}
+.p{
+ text-transform: uppercase;
+ margin-top: 10px;
+ font-size: 13px;
+ margin-bottom: 20px;   
+}
+.container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // background-color: antiquewhite;
+    border-bottom: 2px solid rgb(189, 189, 189);
+    margin-bottom: 20px;
+    // justify-content: space-around;
+}
