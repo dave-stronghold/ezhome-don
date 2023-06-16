@@ -16,14 +16,14 @@ function ProjectFullwidthPage({
     return (
         <>
             <Head>
-                <title>Projects FullWidth</title>
+                <title>Doors</title>
                 <meta name="description" content="Projects FullWidth" />
             </Head>
             <Breadcrumb
-                 subTitle="EZHOME Doors"
-                 title="Doors"
-                 desc="Durable, aesthetically pleasing and Safe Doors"
-                 classt='page_banner__bgdoors fill'
+                subTitle="EZHOME Doors"
+                title="Doors"
+                desc="Durable, aesthetically pleasing and Safe Doors"
+                classt="page_banner__bgdoors fill"
             />
             <ProjectFullwidth projects={projects} />
             <BannerFive bannerTwoItems={bannerTwoItems} />
@@ -39,7 +39,9 @@ export function getStaticProps() {
     const bannerTwoItems = getAllItems('doors');
     const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
-    const allItems=tempArray.filter(project => {if(project.flag === 'doors') return project})
+    const allItems = tempArray.filter((project) => {
+        if (project.flag === 'doors') return project;
+    });
     return {
         props: {
             projects: allItems,
