@@ -21,8 +21,9 @@ listItem:
         {
             id: 'sidebarList-02',
             listText: 'Decko consists of several collections of absolutely distinctive products, a department of made-to-measure doors, and an array of exceptional accessories and options.',
-        },]
+        },
+    ]
 linkText: 'https://www.portesdecko.com/en/products/'
 isFeatured: true
-flag : 'doors'
+flag: 'no_doors'
 ---

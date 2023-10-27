@@ -1,6 +1,6 @@
 ---
 id: 'service-04'
-title: 'PaintJob and Coating'
+title: 'Painted Doors'
 mediumImage: 'laminate-flooring-md.jpg'
 largeImage: 'laminate-flooring-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'

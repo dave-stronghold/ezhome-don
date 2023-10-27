@@ -61,7 +61,7 @@ function ProjectOverview({ projectsOverview }) {
 }
 
 ProjectOverview.propTypes = {
-    projectsOverview: PropTypes.instanceOf(Object)
+    projectsOverview: PropTypes.instanceOf(Object),
 };
 
 export default ProjectOverview;

@@ -49,7 +49,7 @@ function Footer({ footerItems }) {
                                     sm={{ span: 6 }}
                                     className="ps-lg-50 pt-40 pt-lg-0"
                                 >
-                                {/* <div className={classes.widget__item}>
+                                    {/* <div className={classes.widget__item}>
                                     <h2 className={classes.widget__title}>
                                         {footerItem?.quickLinkTitle}
                                     </h2>
@@ -93,7 +93,7 @@ function Footer({ footerItems }) {
                                         </ul>
                                     </div>
                                 </Col>
-                                
+
                                 <Col
                                     xl={{ span: 3 }}
                                     lg={{ span: 4 }}
@@ -167,15 +167,12 @@ function Footer({ footerItems }) {
                                 <Col md={{ span: 6 }} sm={{ span: 8 }}>
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
-                                            © {new Date().getFullYear()}{' '}
-                                            Ezhomes
+                                            © {new Date().getFullYear()} Ezhomes
                                             <span className={classes.icon}>
                                                 <FaIcons.FaCanadianMapleLeaf />
                                             </span>
                                             from
-                                            <a href="">
-                                                Canada
-                                            </a>
+                                            <a href="">Canada</a>
                                         </span>
                                     </div>
                                 </Col>

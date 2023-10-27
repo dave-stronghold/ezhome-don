@@ -48,20 +48,10 @@ options:
             name: 'A-33 Brass Beveled',
         },
     ]
-options2: [{
-            id: 08,
-            link: '/images/projects/patio-door/8.jpg',
-            name: '',
-        },
-        {
-            id: 09,
-            link: '/images/projects/patio-door/9.jpg',
-            name: '',
-        },
-        {
-            id: 10,
-            link: '/images/projects/patio-door/10.jpg',
-            name: '',
-        },
+options2:
+    [
+        { id: 08, link: '/images/projects/patio-door/8.jpg', name: '' },
+        { id: 09, link: '/images/projects/patio-door/9.jpg', name: '' },
+        { id: 10, link: '/images/projects/patio-door/10.jpg', name: '' },
     ]
 ---

@@ -30,14 +30,14 @@ function ServicePage({
                 <title>Services - EZHOME</title>
                 <meta
                     name="description"
-                    content="EZHOME is the way to go service provider in Canada while installing Doors, Glasses and Windows."
+                    content="EZHOME is the way to go service provider in Canada while installing Doors."
                 />
             </Head>
             <Breadcrumb
                 subTitle="Who we are"
                 title="Our Services"
-                classt='page_banner__bgservices fill'
-                desc="EZHOME is the way to go service provider in Canada for installing Doors, Glasses and related services."
+                classt="page_banner__bgservices fill"
+                desc="EZHOME is the way to go service provider in Canada for installing Doors and related services."
             />
             <AboutTwo aboutItemsTwo={aboutItemsTwo} />
             <AllServices
@@ -45,7 +45,7 @@ function ServicePage({
                 serviceSectionItems={serviceSectionItems}
             />
             <BannerTwo bannerTwoItems={bannerTwoItems} />
-            <BrandOne brandItems={brandItems} />
+            {/* <BrandOne brandItems={brandItems} /> */}
             <BannerFour
                 bannerFourItems={bannerFourItems}
                 bannerSection={bannerSection}

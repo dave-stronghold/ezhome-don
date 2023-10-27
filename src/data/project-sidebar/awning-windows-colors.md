@@ -5,7 +5,6 @@ slug: 'awning-windows_'
 flag: 'windows'
 sidebarList:
     [
-        
         {
             id: 'sidebarList-01',
             listItem: 'WHITE  <div class="text-primaryC" style="background-color:#ffffff;font-size:16px;">&#x2B1B;&#xfe0e;</div>',

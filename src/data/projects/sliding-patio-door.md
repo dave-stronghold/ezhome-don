@@ -14,10 +14,7 @@ summeryTitle: 'Detailed Information'
 summeryDesc: 'Our vinyl Sliding Patio Doors accommodates glass thickness up to 1 ⅜” and full support of all panes on triple units. We use G90 galvanized steel reinforced sashes for industry-leading structural integrity.'
 listItem:
     [
-        {
-            id: 'listItem-01',
-            listText: 'Quad Seals at Interlocks.',
-        },
+        { id: 'listItem-01', listText: 'Quad Seals at Interlocks.' },
         {
             id: 'listItem-02',
             listText: 'Mechanical Frame Assembly with Sloped Sill.',
@@ -50,10 +47,7 @@ listItem:
             id: 'listItem-09',
             listText: 'Standard aluminum screen with option of pet mesh.',
         },
-        {
-            id: 'listItem-10',
-            listText: 'Option of Heavy duty 3”.',
-        },
+        { id: 'listItem-10', listText: 'Option of Heavy duty 3”.' },
         {
             id: 'listItem-11',
             listText: 'Available in white, black and custom colour.',
@@ -62,11 +56,8 @@ listItem:
             id: 'listItem-12',
             listText: 'Standard Full anodized aluminum covered sill.',
         },
-        {
-            id: 'listItem-13',
-            listText: 'Standard pocket covers.',
-        },
+        { id: 'listItem-13', listText: 'Standard pocket covers.' },
     ]
 isFeatured: true
-flag : 'doors'
+flag: 'no_doors'
 ---

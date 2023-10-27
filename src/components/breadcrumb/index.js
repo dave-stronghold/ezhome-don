@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { Container } from 'react-bootstrap';
 
-function Breadcrumb({ subTitle, title, desc,classt }) {
+function Breadcrumb({ subTitle, title, desc, classt }) {
     return (
-        <div className={classt?`${classt} fill `:`page_banner__bg`}>
+        <div className={classt ? `${classt} fill ` : `page_banner__bg`}>
             <Container>
                 <div className="page_content">
                     <span className="page_subtitle">{subTitle}</span>

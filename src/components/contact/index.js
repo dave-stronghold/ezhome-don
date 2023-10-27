@@ -67,7 +67,7 @@ function Contact({ contactItems }) {
                             </Col>
                         </Row>
                     </div>
-                    <div className={classes.form_area} id='contact_content'>
+                    <div className={classes.form_area} id="contact_content">
                         <Row>
                             <Col lg={{ span: 6 }}>
                                 <h2 className={classes.form_title}>

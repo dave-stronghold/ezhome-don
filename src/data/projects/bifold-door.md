@@ -49,5 +49,5 @@ listItem:
     ]
 checkIcon: 'FaCheck'
 isFeatured: true
-flag : 'doors'
+flag: 'no_doors'
 ---

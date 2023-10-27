@@ -15,7 +15,7 @@ function ProjectDetailPage({
     bannerTwoItems,
     newsletterItems,
     footerItems,
-}) { 
+}) {
     return (
         <>
             <Head>
@@ -34,11 +34,10 @@ function ProjectDetailPage({
             <ProjectDetail
                 project={project}
                 projectsSidebar={projectsSidebar}
-                
                 richTexts={richTexts}
                 // projectsOverview={projectsOverview}
             />
-            
+
             {/* <BannerFive bannerTwoItems={bannerTwoItems} /> */}
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
@@ -52,15 +51,19 @@ export function getStaticProps(context) {
 
     const project = getItemData(slug, 'projects');
     // const projectsSidebar = getItemData(slug, 'project-sidebar')
-    const tempsidebarArray=getAllItems('project-sidebar')
+    const tempsidebarArray = getAllItems('project-sidebar');
     // const projectsSidebar = getAllItems('project-sidebar');
     const richTexttemp = getAllItems('rich-text');
     const projectsOverview = getAllItems('project-overview');
     const bannerTwoItems = getAllItems('banner-2');
     const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
-    const richTexts=richTexttemp.filter(project => {if(project.slug === slug) return project})
-    const projectsSidebar=tempsidebarArray.filter(project => {if(project.slug === slug) return project})
+    const richTexts = richTexttemp.filter((project) => {
+        if (project.slug === slug) return project;
+    });
+    const projectsSidebar = tempsidebarArray.filter((project) => {
+        if (project.slug === slug) return project;
+    });
     return {
         props: {
             project,

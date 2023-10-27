@@ -11,7 +11,7 @@ experienceYear: 'Why'
 ourProgress: 'choose<span>EZHOME?</span>'
 experienceImage: '/images/about/avatar.png'
 experienceAlt: 'Avatar'
-aboutSubtitle: 'EZHOME is the way to go service provider in Canada while installing Doors, Glasses and Windows.'
+aboutSubtitle: 'EZHOME is the way to go service provider in Canada while installing Doors'
 listItem:
     [
         {

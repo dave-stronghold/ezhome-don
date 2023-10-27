@@ -72,12 +72,8 @@ options:
             link: '/images/projects/clearlite-door/12.png',
             name: 'London',
         },
-        {
-            id: 13,
-            link: '/images/projects/clearlite-door/13.png',
-            name: 'Moncton
-',
-        },
+        { id: 13, link: '/images/projects/clearlite-door/13.png', name: 'Moncton
+                ' },
         {
             id: 14,
             link: '/images/projects/clearlite-door/14.jpg',
@@ -93,11 +89,7 @@ options:
             link: '/images/projects/clearlite-door/16.png',
             name: 'Orleans',
         },
-        {
-            id: 17,
-            link: '/images/projects/clearlite-door/17.jpg',
-            name: 'Oso',
-        },
+        { id: 17, link: '/images/projects/clearlite-door/17.jpg', name: 'Oso' },
         {
             id: 18,
             link: '/images/projects/clearlite-door/18.png',
@@ -118,11 +110,7 @@ options:
             link: '/images/projects/clearlite-door/21.png',
             name: 'Sydney',
         },
-        {
-            id: 22,
-            link: '/images/projects/clearlite-door/22.png',
-            name: 'Uno',
-        },
+        { id: 22, link: '/images/projects/clearlite-door/22.png', name: 'Uno' },
         {
             id: 23,
             link: '/images/projects/clearlite-door/23.png',
@@ -133,11 +121,7 @@ options:
             link: '/images/projects/clearlite-door/24.png',
             name: 'Victoria Shaker',
         },
-        {
-            id: 25,
-            link: '/images/projects/clearlite-door/25.png',
-            name: 'Vog',
-        },
+        { id: 25, link: '/images/projects/clearlite-door/25.png', name: 'Vog' },
         {
             id: 26,
             link: '/images/projects/clearlite-door/26.png',

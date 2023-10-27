@@ -8,10 +8,9 @@ subTitle: 'Do you have a project? let’s start'
 title: 'Contact with us'
 desc: 'EZHOME is experienced in providing customers the best service and post-installation services. Please Choose to give us a visit.'
 addressTitle: 'Office Address'
-addressDesc: '154, Tapestry Dr, Nepean, ON, K2J 0H4, Canada' 
+addressDesc: '154, Tapestry Dr, Nepean, ON, K2J 0H4, Canada'
 infoTitle: 'Contact Info'
-infoList:
-    [
+infoList: [
         {
             id: 'infoList-01',
             listText: 'Phone:',
@@ -27,14 +26,14 @@ infoList:
         {
             id: 'infoList-03',
             listText: 'Email:',
-            path: 'mailto://info@ezhome.com',
-            listValue: 'info@ezhome.com',
+            path: 'mailto://contact@ezhomedoors.ca',
+            listValue: 'contact@ezhomedoors.ca',
         },
         {
             id: 'infoList-04',
             listText: 'Web:',
             path: '/',
-            listValue: 'www.ezhome.com',
+            listValue: 'www.ezhomedoors.ca',
         },
     ]
 btnText: 'Submit'

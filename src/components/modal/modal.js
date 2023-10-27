@@ -66,7 +66,7 @@ export function GetQuoteButton() {
                             placeholder="Message"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
-                        ></textarea>
+                        />
                         <button type="submit">Submit</button>
                     </form>
                 </div>

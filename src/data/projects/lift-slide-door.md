@@ -48,5 +48,5 @@ listItem:
         },
     ]
 isFeatured: true
-flag : 'doors'
+flag: 'no_doors'
 ---

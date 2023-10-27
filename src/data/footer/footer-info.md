@@ -15,7 +15,11 @@ informationList:
             title: 'Doors',
             path: 'projects/project-fullwidth',
         },
-        { id: 'informationList-04', title: 'Collections', path: 'projects2/project-fullwidth' },
+        {
+            id: 'informationList-04',
+            title: 'Collections',
+            path: 'projects2/project-fullwidth',
+        },
         { id: 'informationList-05', title: 'Contact us', path: 'contact' },
     ]
 quickLinkTitle: 'Quick Links'
@@ -36,8 +40,7 @@ widgetAddress: '154, Tapestry Dr, Nepean, ONT K2J0H4, Canada'
 widgetNumber: '+1 613-791-9938'
 additionWidgetAddress: ''
 additionWidgetNumber: ''
-socialList:
-    [
+socialList: [
         {
             id: 'socialList-01',
             socialIcon: 'FaFacebookF',

@@ -1,14 +1,13 @@
 import classes from './option.module.scss';
-const GridItem = ({ option }) => {
+
+function GridItem({ option }) {
     return (
-        <>
-            <div className={classes.gridItem}>
-                <img className={classes.colorBox} src={option.link}></img>
-                <p className={classes.p}>{option.name}</p>
-            </div>
-        </>
+        <div className={classes.gridItem}>
+            <img className={classes.colorBox} src={option.link} />
+            <p className={classes.p}>{option.name}</p>
+        </div>
     );
-};
+}
 function ControlledTabsExample({ project }) {
     return (
         <>
