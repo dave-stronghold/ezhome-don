@@ -34,9 +34,7 @@ function LatestProject({ projects, projectSectionItems, settings }) {
         <div>
             <div className={classes.bg_W}>
                 <div className={classes.btn__wrap}>
-                    <div className={classes.btn}>
-                        
-                    </div>
+                    <div className={classes.btn} />
                 </div>
                 <Container fluid className="px-0">
                     <div className={classes.slider_with__section}>

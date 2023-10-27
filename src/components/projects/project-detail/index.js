@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import {Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
+import Link from 'next/link';
+import { FaCheck } from 'react-icons/fa';
 import classes from './index.module.scss';
 import classes2 from './about.module.scss';
 import ProjectSidebar from '../project-sidebar';
-import Link from 'next/link';
-import classes3 from './banner-3.module.scss'
+import classes3 from './banner-3.module.scss';
 import ProjectContent from './project-content';
-import { FaCheck } from 'react-icons/fa'; 
 
 function ProjectDetail({
     project,
@@ -24,11 +24,12 @@ function ProjectDetail({
                         projectsOverview={projectsOverview}
                     />
                     <ProjectSidebar projectsSidebar={projectsSidebar} />
-                   
                 </Row>
                 <Row>
-                    <Col lg={{ span:7 }}>
-                        {project?.listItem&&(<h3 className={classes.summery_title}>Features</h3>)}
+                    <Col lg={{ span: 7 }}>
+                        {project?.listItem && (
+                            <h3 className={classes.summery_title}>Features</h3>
+                        )}
                         <ul className={classes2.list__item}>
                             {project?.listItem?.map((item) => (
                                 <li className={classes2.list} key={item.id}>
@@ -41,12 +42,14 @@ function ProjectDetail({
                                 </li>
                             ))}
                         </ul>
-                       { project.linkText&&(<Link
-                            href={project.linkText}
-                            className={classes3.link}
-                        >
-                            SEE BROUCHURE
-                        </Link>)}
+                        {project.linkText && (
+                            <Link
+                                href={project.linkText}
+                                className={classes3.link}
+                            >
+                                SEE BROUCHURE
+                            </Link>
+                        )}
                     </Col>
                 </Row>
             </Container>

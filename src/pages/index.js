@@ -14,13 +14,20 @@ import Footer from '../components/layout/footer';
 import Newsletter from '../components/newsletter/newsletter';
 import Team from '../components/team';
 import Testimonial from '../components/testimonial';
-import { getAllItems, getFeaturedItems, getWindows,getDoors } from '../lib/items-util';
+import {
+    getAllItems,
+    getFeaturedItems,
+    getWindows,
+    getDoors,
+} from '../lib/items-util';
 
-function HomePage({ 
+function HomePage({
     heroItems,
     bannerItems,
     aboutItems,
-    projects,windows,doors,
+    projects,
+    windows,
+    doors,
     projectSectionItems,
     brandItems,
     services,
@@ -55,15 +62,15 @@ function HomePage({
                 projects={windows}
                 projectSectionItems={projectSectionItems}
             /> */}
-            <BrandTwo brandItems={brandItems} />
+            {/* <BrandTwo brandItems={brandItems} /> */}
             <HomePageServices
                 services={services}
                 serviceSectionItems={serviceSectionItems}
             />
             <BannerTwo bannerTwoItems={bannerTwoItems} />
-            <Counter />
+            {/* <Counter /> */}
             {/* <Team teamItems={teamItems} teamSectionItems={teamSectionItems} /> */}
-            <Team  teamSectionItems={teamSectionItems} />
+            {/* <Team  teamSectionItems={teamSectionItems} /> */}
             <Testimonial
                 testimonialItems={testimonialItems}
                 testimonialSectionItems={testimonialSectionItems}

@@ -9,7 +9,7 @@ function ServiceItem({ service }) {
 
     return (
         <div className="service-item">
-            <a  className={classes.img}>
+            <a className={classes.img}>
                 <img
                     className="img-full"
                     src={imagePath}

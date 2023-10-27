@@ -7,7 +7,6 @@ import ProjectDetail from '../../components/projects/project-detail';
 import Footer from '../../components/layout/footer';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 
-
 function ProjectDetailPage({
     project,
     projectsSidebar,
@@ -29,7 +28,7 @@ function ProjectDetailPage({
             <Breadcrumb
                 subTitle={project.subTitle}
                 title={project.title}
-                desc={project.breadcrumbDesc}   
+                desc={project.breadcrumbDesc}
                 classt={project.class}
             />
             <ProjectDetail
@@ -39,7 +38,7 @@ function ProjectDetailPage({
                 // projectsOverview={projectsOverview}
             />
             {/* <BannerFive bannerTwoItems={bannerTwoItems} /> */}
-            
+
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>
@@ -52,7 +51,7 @@ export function getStaticProps(context) {
 
     const project = getItemData(slug, 'projects');
     // const projectsSidebar = getItemData(slug, 'project-sidebar')
-    const tempsidebarArray=getAllItems('project-sidebar')
+    const tempsidebarArray = getAllItems('project-sidebar');
     // const projectsSidebar = getAllItems('project-sidebar');
     // const richTexts = getAllItems('rich-text');
     const richTexttemp = getAllItems('rich-text');
@@ -60,8 +59,12 @@ export function getStaticProps(context) {
     const bannerTwoItems = getAllItems('banner-2');
     const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
-    const projectsSidebar=tempsidebarArray.filter(project => {if(project.slug === slug) return project})
-    const richTexts=richTexttemp.filter(project => {if(project.slug === slug) return project})
+    const projectsSidebar = tempsidebarArray.filter((project) => {
+        if (project.slug === slug) return project;
+    });
+    const richTexts = richTexttemp.filter((project) => {
+        if (project.slug === slug) return project;
+    });
     return {
         props: {
             project,

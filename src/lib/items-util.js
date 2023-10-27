@@ -39,8 +39,8 @@ export function getFeaturedItems(items) {
     return items.filter((item) => item.isFeatured);
 }
 export function getWindows(items) {
-    return items.filter((item) => item.flag==="windows");
+    return items.filter((item) => item.flag === 'windows');
 }
 export function getDoors(items) {
-    return items.filter((item) => item.flag==="doors");
+    return items.filter((item) => item.flag === 'doors');
 }

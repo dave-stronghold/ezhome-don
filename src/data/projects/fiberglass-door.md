@@ -14,36 +14,15 @@ summeryTitle: 'Detailed Information'
 summeryDesc: 'Are you frustrated by doors sticking when the temperature changes? Does your door stick when it gets too hot or too cold? Fiberglass doors offer astounding design flexibility with incredible durability. Lightweight, durable, and well-insulated, these doors can be made to match virtually any design, and offer the benefits of traditional wood and steel without the trade-offs. Find a stunning look that’ll perfectly complement your home’s décor and look'
 listItem:
     [
-        {
-            id: 'listItem-01',
-            listText: 'Designer Door Collection',
-        },
-        {
-            id: 'listItem-02',
-            listText: 'Rustic Collection',
-        },
-        {
-            id: 'listItem-03',
-            listText: 'Classic Collection',
-        },
-        {
-            id: 'listItem-04',
-            listText: 'Craftsman Collection',
-        },
-        {
-            id: 'listItem-05',
-            listText: 'Contemporary Collection',
-        },
-        {
-            id: 'listItem-06',
-            listText: 'Contemporary Edge Collection',
-        },
-        {
-            id: 'listItem-07',
-            listText: 'Simulated Divided Lites Collection',
-        },
-        ]
+        { id: 'listItem-01', listText: 'Designer Door Collection' },
+        { id: 'listItem-02', listText: 'Rustic Collection' },
+        { id: 'listItem-03', listText: 'Classic Collection' },
+        { id: 'listItem-04', listText: 'Craftsman Collection' },
+        { id: 'listItem-05', listText: 'Contemporary Collection' },
+        { id: 'listItem-06', listText: 'Contemporary Edge Collection' },
+        { id: 'listItem-07', listText: 'Simulated Divided Lites Collection' },
+    ]
 isFeatured: true
-flag : 'doors'
+flag: 'doors'
 linkText: 'https://www.mastergrain.com/product-landing/'
 ---

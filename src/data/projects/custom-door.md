@@ -14,10 +14,7 @@ summeryTitle: 'Detailed Information'
 summeryDesc: 'Along with the standard styles of doors that we offer, we love giving you the option of customizing your doors, whether you’re looking at the colour, specific part, or style. We are proud to have partnered up with some of the industry’s most well-established brands to provide you with the best custom door products for your home. With EZHOME Custom doors, the power is in your hands.'
 listItem:
     [
-        {
-            id: 'listItem-01',
-            listText: 'Sapele wood custom stains',
-        },
+        { id: 'listItem-01', listText: 'Sapele wood custom stains' },
         {
             id: 'listItem-02',
             listText: 'Custom slab widths up to 40 inches wide and 108 inches high',
@@ -26,10 +23,7 @@ listItem:
             id: 'listItem-03',
             listText: 'Optional multipoint lock system or five-foot bar',
         },
-        {
-            id: 'listItem-04',
-            listText: 'Optional side lights and top lights',
-        },
+        { id: 'listItem-04', listText: 'Optional side lights and top lights' },
         {
             id: 'listItem-05',
             listText: 'Handle with and without key lock option.',
@@ -50,10 +44,7 @@ listItem:
             id: 'listItem-09',
             listText: 'Standard aluminum screen with option of pet mesh.',
         },
-        {
-            id: 'listItem-10',
-            listText: 'Option of Heavy duty 3”.',
-        },
+        { id: 'listItem-10', listText: 'Option of Heavy duty 3”.' },
         {
             id: 'listItem-11',
             listText: 'Available in white, black and custom colour.',
@@ -62,11 +53,8 @@ listItem:
             id: 'listItem-12',
             listText: 'Standard Full anodized aluminum covered sill.',
         },
-        {
-            id: 'listItem-13',
-            listText: 'Standard pocket covers.',
-        },
+        { id: 'listItem-13', listText: 'Standard pocket covers.' },
     ]
 isFeatured: true
-flag : 'doors'
+flag: 'doors'
 ---
